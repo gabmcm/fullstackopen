@@ -1,7 +1,5 @@
 # fullstackopen
 
-Completion:
-
 Part0
 Part1
 Part2
