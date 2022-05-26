@@ -47,12 +47,11 @@ const App = () => {
               })
               .catch(error => {
                 setError(
-                  `${person.name} was already removed from server`
+                  `${error.response.data.error}`
                 )
                 setTimeout(() => {
                   setError(null)
                 }, 5000)
-                setPersons(persons.filter(person => person.id !== id))
               })
           } 
         } else {
@@ -76,6 +75,15 @@ const App = () => {
             setMessage(null)
           }, 5000)
           isNew = true
+        })
+        .catch(error => {
+          console.log(error.response.data.error)
+          setError(
+            `${error.response.data.error}`
+          )
+          setTimeout(() => {
+            setError(null)
+          }, 5000)
         })
     }
   }

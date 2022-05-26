@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Note from './components/Note'
 import noteService from './services/notes'
 import Notification from './components/Notification'
+import axios from 'axios'
 
 
 const Footer = () => {
@@ -26,12 +27,13 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState('some error happened...')
 
   useEffect(() => {
-    noteService
-      .getAll()
-      .then(initialNotes => {
-        setNotes(initialNotes)
+    axios
+      .get('/api/notes')
+      .then(res => {
+        setNotes(res.data)
       })
-  }, [])
+    }, [])
+
 
   const toggleImportanceOf = id => {
     const note = notes.find(n => n.id === id)
