@@ -1,1 +1,5 @@
 /node_modules
+
+/part3/.vscode
+/part3/nodepractice
+/part3/phonebook/
