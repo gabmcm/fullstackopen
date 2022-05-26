@@ -1,7 +1,9 @@
 # fullstackopen
 
-Part0
-Part1
-Part2
-Part3
-Part4 - in progress
+Completed:<br>
+Part0<br>
+Part1<br>
+Part2<br>
+Part3<br>
+<br>
+In progress: 
