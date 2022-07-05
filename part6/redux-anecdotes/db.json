@@ -1,0 +1,54 @@
+{
+  "anecdotes": [
+    {
+      "content": "Adding an anecdote is easy, if you don't screw it up",
+      "votes": 32,
+      "id": "LtDLjDZ"
+    },
+    {
+      "content": "Trying to create different anecdotes",
+      "votes": 4,
+      "id": "xMHDDLJ"
+    },
+    {
+      "content": "Want them all to be a little different",
+      "votes": 8,
+      "id": "41cTr8o"
+    },
+    {
+      "content": "Here's another one to test",
+      "votes": 6,
+      "id": "HEvHwNE"
+    },
+    {
+      "content": "And another one",
+      "votes": 9,
+      "id": "xhrrJcp"
+    },
+    {
+      "content": "How about this anecdote",
+      "votes": 12,
+      "id": "lEB88uX"
+    },
+    {
+      "content": "I'll need to fix the notification bug",
+      "votes": 9,
+      "id": "ku2LKX0"
+    },
+    {
+      "content": "It gets overridden weirdly if you submit too many anecdotes too quickly",
+      "votes": 9,
+      "id": "odDciiZ"
+    },
+    {
+      "content": "Adding an anecdote is easy, if you don't screw it up",
+      "votes": 6,
+      "id": "biv2Q1Z"
+    },
+    {
+      "content": "Trying new anecdotes with connect ",
+      "votes": 8,
+      "id": "VRcljbg"
+    }
+  ]
+}
